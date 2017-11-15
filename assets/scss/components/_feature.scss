@@ -1,0 +1,20 @@
+.feature {
+
+	&__image {
+		margin-bottom: 6px;
+	}
+
+	&__title {
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 3px;
+	}
+
+	&__text {
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 11px;
+		color: $color-primary;
+	}
+
+}

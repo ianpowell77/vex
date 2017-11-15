@@ -1,0 +1,33 @@
+.review {
+
+	font-family: Lora;
+	margin-bottom: 77px;
+
+	&__icon {
+		margin-bottom: 19px;
+	}
+
+	&__text {
+		font-size: 14px;
+		line-height: 23px;
+		font-style: italic;
+		margin-bottom: 24px;
+		color: #777777;
+	}
+
+	&__image {
+		margin-bottom: 9px;
+	}
+
+	&__name {
+		font-size: 18px;
+		line-height: 22px;
+		font-style: italic;
+	}
+
+	&__job-title {
+		font-size: 14px;
+		line-height: 18px;
+		color: #242424;
+	}
+}

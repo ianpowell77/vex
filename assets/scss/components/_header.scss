@@ -1,0 +1,30 @@
+.header {
+	
+	&__title {
+		font-size: 25px;
+		line-height: 30px;
+		display: inline-block;
+	}
+
+	&__nav-items {
+
+		display: inline-block;
+		float: right;
+
+		li {
+			display: inline-block;
+			line-height: 16px;
+			padding-top: 14px;
+		}
+
+		li+li {
+			margin-left: 25px;
+		}
+
+		a {
+			font-size: 13px;
+			color: black;
+			text-transform: uppercase;
+		}
+	}
+}

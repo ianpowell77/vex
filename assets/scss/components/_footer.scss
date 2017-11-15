@@ -1,0 +1,31 @@
+.footer {
+	background: #F4F4F4;
+	padding-top: 63px;
+	padding-bottom: 59px;
+
+	&__title {
+		font-size: 13px;
+		line-height: 16px;
+		margin-bottom: 20px;
+	}
+
+	&__nav {
+
+		li {
+			display: inline-block;
+		}
+
+		li > a {
+			color: black;
+			text-transform: uppercase;
+			font-size: 13px;
+			margin: 0 7px;
+			margin-bottom: 23px;
+		}
+	}
+
+	&__copyright {
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+}
